@@ -30,7 +30,7 @@ else{
     readData(404,'./views/error.html');
 }
 });
-server.listen(PORT, hostName, () => {
+server.listen(PORT, () => {
   console.log(
     `The server is sucessfully connected ! http://${hostName}:${PORT}`
   );
